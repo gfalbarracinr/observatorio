@@ -1,0 +1,163 @@
+/* ANCHOR TAG */
+#referencia:hover{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+#referencia{
+    color: #FCD121;
+}
+
+/*IMAGENES*/
+.imagen-photo{
+    text-align: center;
+}
+
+.logo{
+    max-width: 45%;
+    max-height: 80%;
+    margin-top: 5%;
+}
+.logo-lg{
+    max-width: 200px;
+    max-height: 160px;
+}
+.logo-md{
+    max-width: 120px;
+    max-height: 80px;
+}
+
+#photos{
+    margin-bottom: 2%;
+}
+
+#cities{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.text-city{
+    margin-top: 2%;
+}
+
+.images{
+    height: 500px;
+    width: 300px;
+}
+
+
+/*MENU NAVEGACIÓN*/
+.nav{ 
+    margin-right: -0.8%;
+    display: table;
+}
+.nav-item{
+    display: table-cell;
+    vertical-align: middle;
+    background-color: black;
+}
+.nav-item:hover{
+    color: black;
+    background-color: #FCD121;
+}
+.nav-link{
+    color: white;
+}
+
+.justify-content-end{
+    float: right;
+    height: 140%;
+}
+
+/*PARRAFOS Y TITULOS */
+
+
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.title{
+    font-size: 480%;
+    margin-top: 2%;
+}
+
+
+#contenido{
+    margin-top: 2%;
+}
+
+
+/* SEPARADOR*/
+.separador{
+    color: white;
+    background-color:black;
+    height: 180px;
+}
+
+
+/* PIE DE PAGINA*/
+footer{
+    background-color: #FCD121;
+    color: white;
+    padding: 1%;
+}
+
+.logotipo{
+    max-width: 60px;
+    max-height: 45px;
+}
+
+#prefooter{
+    color: white;
+    background-color: black;
+    margin-bottom: 0.5%;
+    
+}
+.ack{
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: 120%;
+}
+.contact{
+    padding-top: 1.5%;
+}
+.form-control{
+    background-color: transparent;
+    border-radius: 0%;
+    border-color: white;
+    margin-bottom: 2%;
+    margin-left: 0;
+    margin-right: auto;
+    height:40px;
+    width: 70%;
+}
+.message{
+    height: 94%;
+    margin-left: -35%;
+}
+.justify-button{
+    margin-left: 30%;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+/*MEDIA QUERY*/
+@media (min-width: 1199.98px) { 
+
+    .logo-md{
+        max-width: 200px;
+        max-height: 160px;
+    }
+    .logo-lg{
+        max-width: 5000px;
+        max-height: 450px;
+    }
+    .images{
+        max-width: 500px;
+        max-height: 800px;
+    }
+    .justify-button{
+        margin-left: 49%;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Roboto|Saira+Extra+Condensed');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link,  .subtitulo-letra{
+    font-family: 'Saira Extra Condensed', sans-serif !important;
+}
+.titulo-letra{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+/* HEADER */
+
+.header{
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+
+    /*** NAV ***/
+
+/* LOGOS */
+/* IMAGES */
+
+.picture{
+    max-height: 800px;
+    max-width: 600px;
+}
+.picture-two{
+    max-height: 800px;
+    max-width: 500px;
+}
